@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".thailand">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:foreground="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="47dp"
+            android:fontFamily="serif"
+            android:text="THAILAND"
+            android:textColor="#0F827B"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/thailand" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital: BANGKOK"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#2245F5"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:justificationMode="inter_word"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:text="Thailand's capital and the most populous city is Bangkok, home to about 10.539 million people. Bangkok is home to about 15.3% of Thailand's population. Over 14 million people live in the surrounding metropolitan area, comprising 22.2% of the country's population. Bangkok is a top tourist destination globally, attracting over 20 million people in a single year. "/>
+
+    <Button
+        android:id="@+id/btnlandmark"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/round_button"
+        android:text="LANDMARK" />
+</LinearLayout>

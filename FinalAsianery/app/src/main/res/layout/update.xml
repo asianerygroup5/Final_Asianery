@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".update"
+    android:orientation="vertical"
+    android:background="@drawable/bg8">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:foreground="@drawable/back" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Update Feedback"
+            android:layout_marginLeft="30dp"
+            android:textColor="#108FF4"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textColor="#CC3737"
+            android:textSize="16dp"
+            android:text="Country's Name "/>
+
+
+        <EditText
+            android:id="@+id/update_countryName"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Country's Name"
+            android:gravity="center"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textColor="#CC3737"
+            android:textSize="16dp"
+            android:text="What can you say about this Country?  "/>
+
+        <EditText
+            android:id="@+id/update_countryDescription"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="Short Description"
+            android:gravity="center"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textColor="#CC3737"
+            android:textSize="16dp"
+            android:text="What is your memorable experience in this Place? "/>
+
+
+        <EditText
+            android:id="@+id/update_countryExperience"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:hint="Experience"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/update_personName"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center_horizontal"
+            android:hint="Your Name"
+            android:inputType="textPersonName"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="UPDATE"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:backgroundTint="#0995A6"
+        android:onClick="clickUpdate"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

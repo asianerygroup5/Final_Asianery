@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".asianery_info"
+    app:cardBackgroundColor="#D3E1E3"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:padding="20dp"
+        android:layout_marginLeft="2dp">
+
+        <TextView
+            android:id="@+id/txtid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User # :"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:textColor="#2853ED"
+            android:textSize="15dp" />
+
+
+
+        <TextView
+            android:id="@+id/tCName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country's Name:"
+            android:textColor="#F8665B"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginLeft="40dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/tCDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desciption"
+            android:textColor="#F8665B"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/txtdescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text=""
+            android:layout_marginLeft="40dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tCExperience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experience"
+            android:textColor="#F8665B"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/txtexperience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text=""
+            android:layout_marginLeft="40dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txtpname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:text="From:"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#F8665B"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right">
+
+        <TextView
+            android:id="@+id/Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textSize="15dp"
+            android:layout_marginRight="8dp"
+            android:background="#EA9292"
+            android:padding="4dp"
+            android:layout_gravity="right" />
+
+        <TextView
+            android:id="@+id/Update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="  Edit  "
+            android:textSize="15dp"
+            android:background="#EF9D10"
+            android:padding="4dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtdot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="_____________________________________________________"
+            android:layout_marginTop="400dp"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+

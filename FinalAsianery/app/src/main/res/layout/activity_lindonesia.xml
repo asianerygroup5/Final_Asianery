@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    tools:context=".lindonesia">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:foreground="@drawable/back" />
+
+        <Button
+            android:id="@+id/btnhome"
+            android:layout_width="36dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="240dp"
+            android:foreground="@drawable/home1"
+            android:background="@drawable/home1"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="serif"
+        android:text="INDONESIA"
+        android:textColor="#0F827B"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/lindonesia" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:text="BOROBUDUR, INDONESIA"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Located in central Java, Borobudur is the largest Buddhist temple in the world and one of the most famous landmarks in Indonesia. Erected between the 8th and the 9th century, Borobudur is renowned for its 73 bell-shaped stupas, all having a Buddha statue inside. This grand Indonesian temple easily earns its spot as one of the biggest landmarks in Asia."
+        android:layout_margin="30dp"
+        android:textColor="#092CED"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"/>
+</LinearLayout>
+
+

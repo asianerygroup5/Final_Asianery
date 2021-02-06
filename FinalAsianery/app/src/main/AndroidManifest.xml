@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asianery5">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Asianery5">
+        <activity android:name=".asianery_info"></activity>
+        <activity android:name=".update" />
+        <activity android:name=".add" />
+        <activity android:name=".comment" />
+        <activity android:name=".OpenHelper" />
+        <activity android:name=".scenery_items" />
+        <activity android:name=".scenery_list_activity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".games" />
+        <activity android:name=".references" />
+        <activity android:name=".about" />
+        <activity android:name=".lisrael" />
+        <activity android:name=".lyemen" />
+        <activity android:name=".yemen" />
+        <activity android:name=".lvietnam" />
+        <activity android:name=".vietnam" />
+        <activity android:name=".luzbekistan" />
+        <activity android:name=".uzbekistan" />
+        <activity android:name=".luae" />
+        <activity android:name=".uae" />
+        <activity android:name=".lturkmenistan" />
+        <activity android:name=".turkmenistan" />
+        <activity android:name=".lturkey" />
+        <activity android:name=".turkey" />
+        <activity android:name=".ltimorleste" />
+        <activity android:name=".timorleste" />
+        <activity android:name=".lthailand" />
+        <activity android:name=".thailand" />
+        <activity android:name=".ltajikistan" />
+        <activity android:name=".tajikistan" />
+        <activity android:name=".ltaiwan" />
+        <activity android:name=".taiwan" />
+        <activity android:name=".lsyria" />
+        <activity android:name=".syria" />
+        <activity android:name=".lsrilanka" />
+        <activity android:name=".srilanka" />
+        <activity android:name=".lsouthkorea" />
+        <activity android:name=".southkorea" />
+        <activity android:name=".lsingapore" />
+        <activity android:name=".singapore" />
+        <activity android:name=".lsaudiarabia" />
+        <activity android:name=".saudiarabia" />
+        <activity android:name=".lrussia" />
+        <activity android:name=".russia" />
+        <activity android:name=".lqatar" />
+        <activity android:name=".qatar" />
+        <activity android:name=".lphilippines" />
+        <activity android:name=".philippines" />
+        <activity android:name=".lpalestine" />
+        <activity android:name=".palestine" />
+        <activity android:name=".lpakistan" />
+        <activity android:name=".pakistan" />
+        <activity android:name=".loman" />
+        <activity android:name=".oman" />
+        <activity android:name=".lnorthkorea" />
+        <activity android:name=".northkorea" />
+        <activity android:name=".lnepal" />
+        <activity android:name=".nepal" />
+        <activity android:name=".lmyanmar" />
+        <activity android:name=".myanmar" />
+        <activity android:name=".lmongolia" />
+        <activity android:name=".mongolia" />
+        <activity android:name=".lmaldives" />
+        <activity android:name=".maldives" />
+        <activity android:name=".lmalaysia" />
+        <activity android:name=".malaysia" />
+        <activity android:name=".llebanon" />
+        <activity android:name=".lebanon" />
+        <activity android:name=".llaos" />
+        <activity android:name=".laos" />
+        <activity android:name=".lkyrgyzstan" />
+        <activity android:name=".kyrgyzstan" />
+        <activity android:name=".lkuwait" />
+        <activity android:name=".kuwait" />
+        <activity android:name=".lkazakhstan" />
+        <activity android:name=".kazakhstan" />
+        <activity android:name=".ljordan" />
+        <activity android:name=".jordan" />
+        <activity android:name=".ljapan" />
+        <activity android:name=".japan" />
+        <activity android:name=".israel" />
+        <activity android:name=".liraq" />
+        <activity android:name=".iraq" />
+        <activity android:name=".liran" />
+        <activity android:name=".iran" />
+        <activity android:name=".lindonesia" />
+        <activity android:name=".indonesia" />
+        <activity android:name=".lindia" />
+        <activity android:name=".india" />
+        <activity android:name=".lgeorgia" />
+        <activity android:name=".georgia" />
+        <activity android:name=".lcyprus" />
+        <activity android:name=".cyprus" />
+        <activity android:name=".lchina" />
+        <activity android:name=".china" />
+        <activity android:name=".lcambodia" />
+        <activity android:name=".cambodia" />
+        <activity android:name=".lbrunei" />
+        <activity android:name=".brunei" />
+        <activity android:name=".lbhutan" />
+        <activity android:name=".bhutan" />
+        <activity android:name=".lbangladesh" />
+        <activity android:name=".bangladesh" />
+        <activity android:name=".lbahrain" />
+        <activity android:name=".bahrain" />
+        <activity android:name=".lazerbaijan" />
+        <activity android:name=".azerbaijan" />
+        <activity android:name=".larmenia" />
+        <activity android:name=".armenia" />
+        <activity android:name=".lafghanistan" />
+        <activity android:name=".afghanistan" />
+        <activity android:name=".countrieschoices" />
+        <activity android:name=".home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

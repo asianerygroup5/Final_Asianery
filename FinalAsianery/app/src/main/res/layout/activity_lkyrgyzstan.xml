@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    tools:context=".lkyrgyzstan">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:foreground="@drawable/back" />
+        <Button
+            android:id="@+id/btnhome"
+            android:layout_width="36dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="240dp"
+            android:foreground="@drawable/home1"
+            android:background="@drawable/home1"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="80dp"
+        android:fontFamily="serif"
+        android:text="KYRGYZSTAN"
+        android:textColor="#0F827B"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/lkyrgyzstan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:text="ANCIENT FORTRESSES"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Koshoi Korgon (Qoshoy Qorgon) – Naryn. Ruins of an ancient fortress which most likely was built around the 9th – 12th century AD. Remnants of 4 – 8 m tall walls enclose 250 by 245 m large area.
+Shyrdakbek – Naryn. Ruins of an ancient fortress – possible headquarters of local rulers in the 9th – early 13th centuries AD. 6 m high walls enclose area which is 120 by 117 m large."
+        android:layout_margin="30dp"
+        android:textColor="#092CED"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"/>
+</LinearLayout>
+
+

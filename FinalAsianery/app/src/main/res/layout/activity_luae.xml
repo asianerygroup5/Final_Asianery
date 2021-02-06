@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    tools:context=".luae">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:foreground="@drawable/back" />
+
+        <Button
+            android:id="@+id/btnhome"
+            android:layout_width="36dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="240dp"
+            android:foreground="@drawable/home1"
+            android:background="@drawable/home1"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="150dp"
+        android:fontFamily="serif"
+        android:text="UAE"
+        android:textColor="#0F827B"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/luae" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:text="SHEIKH ZAYED GRAND MOSQUE, ABU DHABI"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We stay in UAE, but we move to the country’s capital – Abu Dhabi, where we find our next landmark – one of the world’s largest and most marvelous mosques. Sheikh Zayed Grand Mosque took 11 years to be completed (1996-2007), and today it stands proud as the symbol of Abu Dhabi."
+        android:layout_margin="30dp"
+        android:textColor="#092CED"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"/>
+</LinearLayout>

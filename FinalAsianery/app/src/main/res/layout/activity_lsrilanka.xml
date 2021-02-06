@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    tools:context=".lsrilanka">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:foreground="@drawable/back" />
+
+        <Button
+            android:id="@+id/btnhome"
+            android:layout_width="36dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="240dp"
+            android:foreground="@drawable/home1"
+            android:background="@drawable/home1"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="serif"
+        android:text="SRI LANKA"
+        android:textColor="#0F827B"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/lsrilanka" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:text="SIGIRIYA ROCK FORTRESS, SIGIRIYA"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The UNESCO-listed ancient rock fortress at Sigiriya is one of the most recognisable and possibly dramatic landmarks in Sri Lanka. Sigiriya was built in 495 AD and served as a palace with colourful frescoes for King Kasyapa. You can hike to the top of Sigiriya or alternatively climb the opposite Pidurangala Rock for the most breathtaking views of Sigiriya Rock itself."
+        android:layout_margin="30dp"
+        android:textColor="#092CED"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"/>
+</LinearLayout>
+
+

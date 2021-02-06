@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".nepal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:foreground="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="47dp"
+            android:fontFamily="serif"
+            android:text="NEPAL"
+            android:textColor="#0F827B"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/nepal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital:  KATHMANDU"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#2245F5"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:justificationMode="inter_word"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:text="Kathmandu, also known as the city of temples, is the capital of Nepal. It is also the country's largest city, with over 1.4 million people. Kathmandu is currently one of the fastest-growing metropolitan areas in South Asia. The city is considered to be the center of Nepal's culture and economy. It's also a popular tourist destination, considered the gateway to the Himalayas and the home of several world heritage sites."/>
+
+    <Button
+        android:id="@+id/btnlandmark"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_button"
+        android:text="LANDMARK" />
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".kazakhstan">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:foreground="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="47dp"
+            android:fontFamily="serif"
+            android:text="KAZAKHSTAN"
+            android:textColor="#0F827B"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/kazakhstan" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital: NUR-SULTAN"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#2245F5"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:justificationMode="inter_word"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:text="Nur-Sultan is the capital of Kazakhstan. The city was initially called Akmola, which became the capital in 1997 and was renamed Astana in 1998. In 2019, Astana was renamed to Nur-Sultan after a unanimous vote in Kazakhstan's parliament. The capital is the seat of government, home to parliament, the Supreme Court, and the presidential palace, among many other government departments. "/>
+
+    <Button
+        android:id="@+id/btnlandmark"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/round_button"
+        android:text="LANDMARK" />
+</LinearLayout>

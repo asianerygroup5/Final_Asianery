@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".syria">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:foreground="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="47dp"
+            android:fontFamily="serif"
+            android:text="SYRIA"
+            android:textColor="#0F827B"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/syria" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital: DAMASCUS"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#2245F5"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:justificationMode="inter_word"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:text="Syria's capital is Damascus, which is one of the oldest continuously inhabited cities in the world. The capital is also the largest city in Syria, with a population of about 2.08 million people. Damascus is titled as the City of Jasmin in Syria and is a major cultural center of the Levant and Arab worlds. Unfortunately, Damascus has been named the world's least livable city by the Economic Intelligence Unit due to the Syrian Civil War."/>
+
+    <Button
+        android:id="@+id/btnlandmark"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/round_button"
+        android:text="LANDMARK" />
+</LinearLayout>
+

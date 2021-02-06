@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context=".malaysia">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:foreground="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="47dp"
+            android:fontFamily="serif"
+            android:text="MALAYSIA"
+            android:textColor="#0F827B"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/malaysia" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital: KUALA LUMPUR"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#2245F5"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:justificationMode="inter_word"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:text="Officially the Federal Territory of Kuala Lumpur, Kuala Lumpur is the capital city of Malaysia. The capital spans over 94 square miles and has a population of over 1.73 million, making it the country's largest city. Kuala Lumpur is home to the country's parliament; however, the executive and judicial branches are located in Putrajaya. UNESCO named the city a World Book Capital in 2020."/>
+
+    <Button
+        android:id="@+id/btnlandmark"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/round_button"
+        android:text="LANDMARK" />
+</LinearLayout>

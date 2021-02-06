@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg3"
+    tools:context=".lpakistan">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:foreground="@drawable/back" />
+
+        <Button
+            android:id="@+id/btnhome"
+            android:layout_width="36dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="240dp"
+            android:foreground="@drawable/home1"
+            android:background="@drawable/home1"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="105dp"
+        android:fontFamily="serif"
+        android:text="PAKISTAN"
+        android:textColor="#0F827B"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/lpakistan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:text="LAHORE FORT"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perhaps one of the most famous landmarks of Pakistan, the Lahore Fort is a piece of history most have heard of. The well-known fortress was entirely rebuilt in the 17th century, though it’s believed to have been inhabited in some way for millennia.
+Some of the most elaborate and well-known highlights of the massive structure were installed under Emperor Jahangir."
+        android:layout_margin="30dp"
+        android:textColor="#092CED"
+        android:textStyle="bold"
+        android:justificationMode="inter_word"/>
+</LinearLayout>

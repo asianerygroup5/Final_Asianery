@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg7"
+    tools:context=".home">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btncountries"
+            android:layout_width="156dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="#F1C951"
+            android:text="Countries"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btngames"
+            android:layout_width="156dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:backgroundTint="#F1457F"
+            android:text="Quiz"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnComment"
+            android:layout_width="156dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:backgroundTint="#9C27B0"
+            android:text="Feedback"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnabout"
+            android:layout_width="156dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:backgroundTint="#97DC47"
+            android:text="About"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/btnquit"
+            android:layout_width="156dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:backgroundTint="#F3511E"
+            android:text="QUIT"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
